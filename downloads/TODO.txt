@@ -1,0 +1,2 @@
+- Fix header of FR-NL set so that the files can be read by STA
+- Obtain EN-NL set with automatic word alignments from RuG
