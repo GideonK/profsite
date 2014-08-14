@@ -1,0 +1,7 @@
+## Ignore these files
+\#*
+*\#
+**/*~
+**/*.tmp
+**/.DS_Store
+
