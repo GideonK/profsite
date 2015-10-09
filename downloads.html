@@ -38,6 +38,15 @@
   })();
 
 </script>
+<script type="text/javascript">
+ function unhide(divID) {
+ var item = document.getElementById(divID);
+ if (item) {
+ item.className=(item.className=='hidden')?'unhidden':'hidden';
+ }
+ }
+ </script>
+
 
 <link rel="stylesheet" href="css/jquery.fancybox-1.3.4.css" type="text/css" media="screen" />
 </head>
@@ -102,7 +111,20 @@
 		<br>
 		<p><font size="2">Please cite the following paper if you use this data in your research:</p>
 		<br>
-		<p><font size="2">Kotzé, G and Wolff, F. 2014. Experiments with syllable-based English-Zulu alignment. <a href="http://ixa2.si.ehu.es/saltmil/">Proceedings of the SaLTMiL Workshop on free/open-source language resources for the machine translation of less-resourced languages</a>, at <a href="http://lrec2014.lrec-conf.org/en/">LREC 2014</a>, May 2014, Reykjavík, Iceland.</p>
+		<p><font size="2">Kotzé, G and Wolff, F. 2014. Experiments with syllable-based English-Zulu alignment. <a href="http://ixa2.si.ehu.es/saltmil/">Proceedings of the SaLTMiL Workshop on free/open-source language resources for the machine translation of less-resourced languages</a>, at <a href="http://lrec2014.lrec-conf.org/en/">LREC 2014</a>, May 2014, Reykjavík, Iceland. <a href="javascript:unhide('bibtex_KotzeWolff:2014');">[BibTeX]</a></p>
+		<!-- BibTeX -->
+	<div id="bibtex_KotzeWolff:2014" class="hidden">
+		<p>@InProceedings{KotzeWolff:2014,</p>
+		<p class="tab">author = 	 {Kotz\'{e}, Gideon and Wolff, Friedel},</p>
+		<p class="tab">title = 	 {Experiments with syllable-based {English-Zulu} alignment},</p>
+		<p class="tab">journal =	{Proceedings of the SaLTMiL Workshop on free/open-source language resources for the machine translation of less-resourced languages (at LREC 2014)},</p>
+		<p class="tab">year = {2014},</p>
+		<p class="tab">pages = {7--11},</p>
+		<p class="tab">address = {Reykjav\'{i}k, Iceland},</p>
+		<p class="tab">isbn = {978-2-9517408-8-4}</p>
+		<p>}</p>
+	</div>
+
 		<br>
 		<h5>Dutch/English and Dutch/French phrase-structure parse trees (448 sentence pairs) from the PaCo-MT project</h5>
 		<br>
